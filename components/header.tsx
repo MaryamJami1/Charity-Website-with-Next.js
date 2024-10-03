@@ -21,7 +21,7 @@ function Header() {
                         />
                     </div>
 
-                    <div className="py-6 px-4 md:px-9 text-lg md:text-xl h-[4rem]">
+                    <div className="py-6 px-4 md:px-9 text-lg md:text-xl h-[4rem] hidden sm:block">
                         <ul className="flex flex-wrap gap-2">
                             <li className="hover:text-[#ff9400] hover:bg-[#fff7eb] rounded-md px-2 py-1 transition-opacity duration-1000 hover:opacity-90">
                                 <Link href="/">Home</Link>
