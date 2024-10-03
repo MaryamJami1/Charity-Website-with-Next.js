@@ -8,13 +8,13 @@ const config: Config = {
   ],
   
   theme: {
-    extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
-    },
-  },
-  plugins: [],
+    "extends": "next",
+    "rules": {
+      "react/no-unescaped-entities": "off",
+      "@next/next/no-page-custom-font": "off"
+    }
+  }
+  
+  
 };
 export default config;
